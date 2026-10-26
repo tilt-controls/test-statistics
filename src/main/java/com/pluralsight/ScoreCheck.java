@@ -15,7 +15,7 @@ public class ScoreCheck {
                 lowScore = scores[i];
             } sum += scores[i];
     }
-        avgScore = sum / scores.length; // find average
+        avgScore = (double) sum / scores.length; // find average
 
         System.out.println();
         System.out.println("Highest score: " + highScore);
